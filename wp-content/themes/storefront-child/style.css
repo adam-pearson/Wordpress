@@ -1,0 +1,66 @@
+/*
+Theme Name: Storefront Child
+Theme URI: http://localhost/
+Description: Child of Storefront
+Author: Adam Pearson
+Author URI: http://adampearson.design
+Template: storefront
+Version: 0.1
+*/
+
+body {
+    background-color: #f7f7f7;
+}
+
+.wc-block-grid__product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wc-block-grid__product-image {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.wc-block-grid__product-image:hover > img {
+    transform: scale(1.02);
+    transition: .3s ease all;
+}
+
+.hentry .entry-content .wp-block-button .wp-block-button__link, .editor-styles-wrapper .wp-block-button .wp-block-button__link {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #ddd;
+    transition: .3s ease all;
+    text-transform: uppercase;
+    letter-spacing: 0.03rem;
+}
+
+.hentry .entry-content .wp-block-button .wp-block-button__link:hover, .editor-styles-wrapper .wp-block-button .wp-block-button__link:hover {
+    box-shadow: inset 0px 0px 0px 1px #ccc;
+    border: 2px solid #ccc;
+}
+
+.wp-block-buttons {
+    justify-content: center;
+}
+
+#post-25 > div.entry-content > div:nth-child(2) > div:nth-child(1) > div.wp-block-buttons > div {
+    width: 100%;
+}
+
+#post-25 > div.entry-content > div.wp-block-columns > div:nth-child(1) > div > div > div > div > a {
+    color: #ddd;
+}
+
+#post-25 > div.entry-content > div:nth-child(2) > div:nth-child(1) > div.wp-duotone-filter-612e4bf3b2bd1.wp-block-cover.has-background-dim,
+#post-25 > div.entry-content > div:nth-child(2) > div:nth-child(2) > div.wp-duotone-filter-612e4bf3b2d5f.wp-block-cover.has-background-dim {
+    height: 400px;
+}
+
+.hentry .entry-content .wp-block-gallery, .editor-styles-wrapper .wp-block-gallery {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
