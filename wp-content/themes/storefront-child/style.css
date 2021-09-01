@@ -8,59 +8,130 @@ Template: storefront
 Version: 0.1
 */
 
+
 body {
     background-color: #f7f7f7;
 }
 
-.wc-block-grid__product {
+.wp-block-buttons > .wp-block-button.custom-btn-seethrough {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    transition: .3s ease all;
+}
+
+.wp-block-buttons > .wp-block-button.custom-btn-seethrough:hover {
+    background-color: #fff;
+}
+
+.wp-block-buttons > .wp-block-button.custom-btn-seethrough:hover > a {
+    color: #222;
+}
+
+.wp-block-buttons > .wp-block-button.custom-btn-seethrough > a {
+    display: block;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.hentry .entry-content .wp-block-button .wp-block-button__link, .editor-styles-wrapper .wp-block-button .wp-block-button__link {
+    display: block;
+}
+
+
+.hentry .wp-post-image {
+    padding: 15px;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+.slick-initialized .wpsf-product.slick-slide {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.wc-block-grid__product-image {
-    background-color: #fff;
-    padding: 10px;
+.sp-wps-product-details-inner {
+    height: 7.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.wc-block-grid__product-image:hover > img {
-    transform: scale(1.02);
-    transition: .3s ease all;
+.wpsf-product-price {
+    margin-top: auto;
 }
 
-.hentry .entry-content .wp-block-button .wp-block-button__link, .editor-styles-wrapper .wp-block-button .wp-block-button__link {
-    padding: 10px 20px;
-    background-color: transparent;
-    border: 2px solid #ddd;
-    transition: .3s ease all;
-    text-transform: uppercase;
-    letter-spacing: 0.03rem;
+.wpsf-product-price > span {
+    font-weight: 400;
 }
 
-.hentry .entry-content .wp-block-button .wp-block-button__link:hover, .editor-styles-wrapper .wp-block-button .wp-block-button__link:hover {
-    box-shadow: inset 0px 0px 0px 1px #ccc;
-    border: 2px solid #ccc;
+.brands-header {
+    display: none;
 }
 
-.wp-block-buttons {
-    justify-content: center;
+.brand-logos {
+    display: none;
 }
 
-#post-25 > div.entry-content > div:nth-child(2) > div:nth-child(1) > div.wp-block-buttons > div {
-    width: 100%;
+.wp-block-column {
+    flex-grow: 1;
 }
 
-#post-25 > div.entry-content > div.wp-block-columns > div:nth-child(1) > div > div > div > div > a {
-    color: #ddd;
+@media screen and (min-width: 768px) {
+    .brands-header {
+        display: block;
+    }
+
+    .brand-logos {
+        display: flex;
+        height: 127px;
+        margin-top: 28px;
+    }
+
+    .brand-logo-image figure {
+        transition: .3s ease all;
+    }
+
+    .brand-logo-image:hover figure {
+        transform: scale(1.2);
+    }
+
+    .wp-block-buttons > .wp-block-button.custom-btn-seethrough {
+        width: auto;
+    }
+    
 }
 
-#post-25 > div.entry-content > div:nth-child(2) > div:nth-child(1) > div.wp-duotone-filter-612e4bf3b2bd1.wp-block-cover.has-background-dim,
-#post-25 > div.entry-content > div:nth-child(2) > div:nth-child(2) > div.wp-duotone-filter-612e4bf3b2d5f.wp-block-cover.has-background-dim {
-    height: 400px;
+/* ------------- Single Product Page --------------- */
+
+/* Change position of + and - on single product page */
+.single-product div.product form.cart .quantity {
+    float: none;
+    margin: 0;
+    display: inline-block;
 }
 
-.hentry .entry-content .wp-block-gallery, .editor-styles-wrapper .wp-block-gallery {
-    width: 55%;
-    margin-left: auto;
-    margin-right: auto;
+/* Remove up and down arrows in quantity box */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Product name */
+#product-83 > div.summary.entry-summary > h1 {
+    margin-bottom: 0.75rem;
+}
+
+/* Product price */
+#product-83 > div.summary.entry-summary > p {
+    margin-top: 0;
 }
