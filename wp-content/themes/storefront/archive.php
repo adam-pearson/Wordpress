@@ -23,7 +23,6 @@ get_header(); ?>
 
 			<?php
 			get_template_part( 'loop' );
-
 		else :
 
 			get_template_part( 'content', 'none' );

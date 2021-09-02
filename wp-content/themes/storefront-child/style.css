@@ -105,6 +105,11 @@ body {
     
 }
 
+.home-contact-heading {
+    margin-top: 1.5em;
+    margin-bottom: .5407911001em;
+}
+
 /* ------------- Single Product Page --------------- */
 
 /* Change position of + and - on single product page */
@@ -135,3 +140,33 @@ input[type=number] {
 #product-83 > div.summary.entry-summary > p {
     margin-top: 0;
 }
+
+.wp-block-column.is-vertically-aligned-center.contact-column.address-column {
+    align-self: stretch;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0 0 5px #d7d7d7;
+}
+
+
+
+
+/* blog styles */
+
+.lorem-ipsum-rating {
+    justify-content: center;
+    margin-bottom: 0.5407911001em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
