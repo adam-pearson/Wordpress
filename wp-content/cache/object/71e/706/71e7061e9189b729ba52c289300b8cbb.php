@@ -1,1 +1,0 @@
-êöIa<?php exit; ?>a:1:{s:7:"content";s:149:"{"version":"1632237108","f9e544f77b7eac7add281ef28ca5559f":{"price":{"91":"1275.00"},"regular_price":{"91":"1275.00"},"sale_price":{"91":"1275.00"}}}";}
