@@ -5,3 +5,5 @@ TO DO.txt
 /.duplicator-packages/
 /.holding/
 *.zip
+*.daf
+installer.php
