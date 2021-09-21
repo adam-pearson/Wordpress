@@ -1,1 +1,0 @@
-Ÿ¸8a<?php exit; ?>a:1:{s:7:"content";a:2:{i:0;s:25:"{{WP_PLUGIN_DIR}}/jetpack";i:1;s:29:"{{WP_PLUGIN_DIR}}/woocommerce";}}

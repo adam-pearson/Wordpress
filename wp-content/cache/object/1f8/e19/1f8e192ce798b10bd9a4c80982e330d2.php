@@ -1,1 +1,0 @@
-ñ¾8a<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":4:{s:6:"reason";s:12:"missing_plan";s:5:"state";s:11:"unavailable";s:12:"last_updated";s:29:"2021-09-08T13:17:28.779+00:00";s:9:"has_cloud";b:0;}}

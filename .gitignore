@@ -5,3 +5,5 @@ installer.php
 Wordpress.zip
 /vendor/
 /node_modules/
+/.duplicator-packages/
+/.holding/
