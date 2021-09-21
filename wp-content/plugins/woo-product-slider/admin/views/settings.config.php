@@ -46,12 +46,12 @@ SPWPS::create_section(
 		'icon'   => 'fa fa-cogs',
 		'fields' => array(
 			array(
-				'id'      => 'wpsp_delete_all_data',
-				'type'    => 'checkbox',
-				'class'   => 'wpsp_delete_all_data',
-				'title'   => __( 'Clean-up Data on Deletion', 'woo-product-slider' ),
-				'help'    => __( 'Check to remove plugin\'s data when plugin is uninstalled or deleted.', 'woo-product-slider' ),
-				'default' => false,
+				'id'         => 'wpsp_delete_all_data',
+				'type'       => 'checkbox',
+				'class'      => 'wpsp_delete_all_data',
+				'title'      => __( 'Clean-up Data on Deletion', 'woo-product-slider' ),
+				'title_help' => __( 'Check to remove plugin\'s data when plugin is uninstalled or deleted.', 'woo-product-slider' ),
+				'default'    => false,
 			),
 			array(
 				'type'    => 'subheading',

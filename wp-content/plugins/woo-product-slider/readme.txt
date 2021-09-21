@@ -3,11 +3,11 @@ Contributors: shapedplugin, rubel_miah, shamimmiashuhagh, khalilu
 Donate link: https://shapedplugin.com/donate
 Tags: woocommerce product slider, woocommerce products carousel, woocommerce product carousel slider, woocommerce widget product slider, product carousel, product slider, best woocommerce product slider, best product slider, product slider for woocommerce, product carousel for woocommerce, woocommerce category slider, woocommerce child category, woocommerce best selling products slider, upsells products, cross-sells related products, related products slider, specific products slider, on sale products display, woocommerce featured products carousel, woocommerce free products, woocommerce out of stock products, woocommerce products from category, woocommerce to rated products, woocommerce most viewed products, woocommerce products from attributes,simple product, grouped product, external/affiliate product, variable product, woo product slider
 Requires at least: 5.0
-Tested up to: 5.8
+Tested up to: 5.8.1
 Requires PHP: 5.6
 WC requires at least: 4.5
 WC tested up to: 5.6.0
-Stable tag: 2.3.3
+Stable tag: 2.3.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -166,6 +166,10 @@ Thanks!
 
 
 == Changelog ==
+
+= 2.3.4 - Sep 15, 2021 =
+* Improved: Shortcode generator options.
+* Fix: Illegal string offset issue.
 
 = 2.3.3 - Aug 19, 2021 =
 * Improved: Plugin security.

@@ -70,7 +70,12 @@ class SP_WPS_ShortCode {
 		$product_type              = ( isset( $shortcode_data['product_type'] ) ? $shortcode_data['product_type'] : 'latest_products' );
 		$number_of_total_products  = ( isset( $shortcode_data['number_of_total_products'] ) ? $shortcode_data['number_of_total_products'] : 16 );
 		$hide_out_of_stock_product = ( isset( $shortcode_data['hide_out_of_stock_product'] ) ? $shortcode_data['hide_out_of_stock_product'] : false );
-		$number_of_column          = ( isset( $shortcode_data['number_of_column'] ) ? $shortcode_data['number_of_column'] : '' );
+		$number_of_column          = ( isset( $shortcode_data['number_of_column'] ) ? $shortcode_data['number_of_column'] : array(
+			'number1' => '4',
+			'number2' => '3',
+			'number3' => '2',
+			'number4' => '1',
+		) );
 		$product_order_by          = ( isset( $shortcode_data['product_order_by'] ) ? $shortcode_data['product_order_by'] : 'date' );
 		$product_order             = ( isset( $shortcode_data['product_order'] ) ? $shortcode_data['product_order'] : 'DESC' );
 		$preloader                 = ( isset( $shortcode_data['preloader'] ) ? $shortcode_data['preloader'] : false );
@@ -97,7 +102,14 @@ class SP_WPS_ShortCode {
 				$navigation        = 'false';
 				$navigation_mobile = 'false';
 		}
-		$nav_arrow_colors = ( isset( $shortcode_data['navigation_arrow_colors'] ) ? $shortcode_data['navigation_arrow_colors'] : '' );
+		$nav_arrow_colors = ( isset( $shortcode_data['navigation_arrow_colors'] ) ? $shortcode_data['navigation_arrow_colors'] : array(
+			'color'            => '#444444',
+			'hover_color'      => '#ffffff',
+			'background'       => 'transparent',
+			'hover_background' => '#444444',
+			'border'           => '#aaaaaa',
+			'hover_border'     => '#444444',
+		) );
 		$pagination_data  = ( isset( $shortcode_data['pagination'] ) ? $shortcode_data['pagination'] : '' );
 		switch ( $pagination_data ) {
 			case 'true':
@@ -123,23 +135,75 @@ class SP_WPS_ShortCode {
 		$product_price                  = ( isset( $shortcode_data['product_price'] ) ? $shortcode_data['product_price'] : true );
 		$product_del_price_color        = ( isset( $shortcode_data['product_del_price_color'] ) ? $shortcode_data['product_del_price_color'] : '#888888' );
 		$product_rating                 = ( isset( $shortcode_data['product_rating'] ) ? $shortcode_data['product_rating'] : true );
-		$product_rating_colors          = ( isset( $shortcode_data['product_rating_colors'] ) ? $shortcode_data['product_rating_colors'] : '' );
+		$product_rating_colors          = ( isset( $shortcode_data['product_rating_colors'] ) ? $shortcode_data['product_rating_colors'] : array(
+			'color'       => '#F4C100',
+			'empty_color' => '#c8c8c8',
+		) );
 		$add_to_cart_button             = ( isset( $shortcode_data['add_to_cart_button'] ) ? $shortcode_data['add_to_cart_button'] : true );
 		$add_to_cart_button_color       = ( isset( $shortcode_data['add_to_cart_button_color'] ) ? $shortcode_data['add_to_cart_button_color'] : '#444444' );
 		$add_to_cart_button_hover_color = ( isset( $shortcode_data['add_to_cart_button_hover_color'] ) ? $shortcode_data['add_to_cart_button_hover_color'] : '#ffffff' );
 		$add_to_cart_button_bg          = ( isset( $shortcode_data['add_to_cart_button_bg'] ) ? $shortcode_data['add_to_cart_button_bg'] : 'transparent' );
 		$add_to_cart_button_hover_bg    = ( isset( $shortcode_data['add_to_cart_button_hover_bg'] ) ? $shortcode_data['add_to_cart_button_hover_bg'] : '#222222' );
-		$add_to_cart_border             = ( isset( $shortcode_data['add_to_cart_border'] ) ? $shortcode_data['add_to_cart_border'] : '' );
-
+		$add_to_cart_border             = ( isset( $shortcode_data['add_to_cart_border'] ) ? $shortcode_data['add_to_cart_border'] : array(
+			'all'         => '1',
+			'style'       => 'solid',
+			'color'       => '#222222',
+			'hover_color' => '#222222',
+		) );
 		// Image Settings.
 		$product_image        = ( isset( $shortcode_data['product_image'] ) ? $shortcode_data['product_image'] : '' );
-		$product_image_border = ( isset( $shortcode_data['product_image_border'] ) ? $shortcode_data['product_image_border'] : '' );
+		$product_image_border = ( isset( $shortcode_data['product_image_border'] ) ? $shortcode_data['product_image_border'] : array(
+			'all'         => '1',
+			'style'       => 'solid',
+			'color'       => '#dddddd',
+			'hover_color' => '#dddddd',
+		) );
 		$image_sizes          = ( isset( $shortcode_data['image_sizes'] ) ? $shortcode_data['image_sizes'] : 'full' );
 
 		// Typography.
-		$slider_title_typography  = ( isset( $shortcode_data['slider_title_typography'] ) ? $shortcode_data['slider_title_typography'] : '' );
-		$product_name_typography  = ( isset( $shortcode_data['product_name_typography'] ) ? $shortcode_data['product_name_typography'] : '' );
-		$product_price_typography = ( isset( $shortcode_data['product_price_typography'] ) ? $shortcode_data['product_price_typography'] : '' );
+		$slider_title_typography = ( isset( $shortcode_data['slider_title_typography'] ) ? $shortcode_data['slider_title_typography'] : array(
+			'font-family'    => 'Open Sans',
+			'font-weight'    => '600',
+			'font-style'     => '',
+			'subset'         => '',
+			'text-align'     => 'left',
+			'text-transform' => 'none',
+			'font-size'      => '22',
+			'line-height'    => '23',
+			'letter-spacing' => '',
+			'color'          => '#444444',
+			'type'           => 'google',
+			'unit'           => 'px',
+		) );
+		$product_name_typography  = ( isset( $shortcode_data['product_name_typography'] ) ? $shortcode_data['product_name_typography'] : array(
+			'font-family'    => 'Open Sans',
+			'font-weight'    => '600',
+			'font-style'     => '',
+			'subset'         => '',
+			'text-align'     => 'center',
+			'text-transform' => 'none',
+			'font-size'      => '15',
+			'line-height'    => '20',
+			'letter-spacing' => '',
+			'color'          => '#444444',
+			'hover_color'    => '#955b89',
+			'type'           => 'google',
+			'unit'           => 'px',
+		) );
+		$product_price_typography = ( isset( $shortcode_data['product_price_typography'] ) ? $shortcode_data['product_price_typography'] : array(
+			'font-family'    => 'Open Sans',
+			'font-weight'    => '700',
+			'font-style'     => '',
+			'subset'         => '',
+			'text-align'     => 'center',
+			'text-transform' => 'none',
+			'font-size'      => '14',
+			'line-height'    => '19',
+			'letter-spacing' => '',
+			'color'          => '#222222',
+			'type'           => 'google',
+			'unit'           => 'px',
+		) );
 
 		$arg = array(
 			'post_type'      => 'product',

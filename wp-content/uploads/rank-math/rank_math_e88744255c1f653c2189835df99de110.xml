@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//wordpress.adam-pearson.netmatters-scs.co.uk/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/shop/</loc>
+		<lastmod>2021-09-01T14:00:25+01:00</lastmod>
+	</url>
+	<url>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/product/fender-player-jazz-bass-mn/</loc>
+		<lastmod>2021-09-01T14:00:25+01:00</lastmod>
+		<image:image>
+			<image:loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/wp-content/uploads/2021/08/58838-176516-Fender-Player-Series-Jazz-Bass-Buttercream-MN-11.jpg</image:loc>
+			<image:title><![CDATA[Fender Player Series Jazz Bass MN Buttercream]]></image:title>
+			<image:caption><![CDATA[Fender Player Series Jazz Bass MN Buttercream]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/wp-content/uploads/2021/08/58754-176513-Fender-Player-Series-Jazz-Bass-Black-MN-11.jpg</image:loc>
+			<image:title><![CDATA[Fender Player Series Jazz Bass MN Black]]></image:title>
+			<image:caption><![CDATA[Fender Player Series Jazz Bass MN Black]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/wp-content/uploads/2021/08/93054-Player-Jazz-3SB-MN-1a1.jpg</image:loc>
+			<image:title><![CDATA[Fender Player Series Jazz Bass MN 3-Color Sunburst]]></image:title>
+			<image:caption><![CDATA[Fender Player Series Jazz Bass MN 3-Color Sunburst]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/wp-content/uploads/2021/08/58832-176515-Fender-Player-Series-Jazz-Bass-Polar-White-MN-11.jpg</image:loc>
+			<image:title><![CDATA[Fender Player Series Jazz Bass MN Polar White]]></image:title>
+			<image:caption><![CDATA[Fender Player Series Jazz Bass MN Polar White]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/product/fender-vintera-60s-jazz-bass/</loc>
+		<lastmod>2021-09-01T13:59:59+01:00</lastmod>
+		<image:image>
+			<image:loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/wp-content/uploads/2021/08/77583-304881-fender-vintera-60s-jazz-bass-11.jpg</image:loc>
+			<image:title><![CDATA[Fender Vintera 60s Jazz Bass Firemist Gold]]></image:title>
+			<image:caption><![CDATA[Fender Vintera 60s Jazz Bass Firemist Gold]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/product/epiphone-eb-0-sg-electric-bass/</loc>
+		<lastmod>2021-09-01T13:59:10+01:00</lastmod>
+	</url>
+	<url>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/product/epiphone-eb-3-4-string-bass-guitar/</loc>
+		<lastmod>2021-09-01T13:58:38+01:00</lastmod>
+		<image:image>
+			<image:loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/wp-content/uploads/2021/08/75207-50493-Epiphone-EB-3-Bass-Guitar-Gloss-Ebony1.jpg</image:loc>
+			<image:title><![CDATA[Epiphone EB-3 Electric Bass Guitar Gloss Ebony]]></image:title>
+			<image:caption><![CDATA[Epiphone EB-3 Electric Bass Guitar Gloss Ebony]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/product/epiphone-viola-electric-bass/</loc>
+		<lastmod>2021-09-01T13:58:14+01:00</lastmod>
+	</url>
+	<url>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/product/fender-jmj-road-worn-mustang-bass-rw/</loc>
+		<lastmod>2021-09-01T13:56:52+01:00</lastmod>
+	</url>
+	<url>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/product/fender-mustang-bass-pj-pf/</loc>
+		<lastmod>2021-09-01T13:56:01+01:00</lastmod>
+	</url>
+	<url>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/product/fender-american-ultra-precision-bass-guitar-rw/</loc>
+		<lastmod>2021-09-01T13:54:12+01:00</lastmod>
+	</url>
+	<url>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/product/fender-player-precision-bass-mn/</loc>
+		<lastmod>2021-09-01T13:53:19+01:00</lastmod>
+		<image:image>
+			<image:loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/wp-content/uploads/2021/08/58778-176502-Fender-Player-Series-P-Bass-Buttercream-MN-1_11.jpg</image:loc>
+			<image:title><![CDATA[Fender Player Precision Bass MN, Buttercream]]></image:title>
+			<image:caption><![CDATA[Fender Player Precision Bass MN, Buttercream]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/wp-content/uploads/2021/08/58772-176501-Fender-Player-Series-P-Bass-Polar-White-MN-1_11.jpg</image:loc>
+			<image:title><![CDATA[Fender Player Precision Bass MN, Polar White]]></image:title>
+			<image:caption><![CDATA[Fender Player Precision Bass MN, Polar White]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/product/gibson-sg-standard-bass/</loc>
+		<lastmod>2021-09-01T13:52:16+01:00</lastmod>
+		<image:image>
+			<image:loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/wp-content/uploads/2021/08/55449-180503-Gibson-2019-SG-Standard-Bass-Ebony-11.jpg</image:loc>
+			<image:title><![CDATA[Gibson SG Standard Bass Ebony]]></image:title>
+			<image:caption><![CDATA[Gibson SG Standard Bass Ebony]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/product/gibson-thunderbird-bass/</loc>
+		<lastmod>2021-09-01T13:51:22+01:00</lastmod>
+		<image:image>
+			<image:loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/wp-content/uploads/2021/08/75352-302923-Gibson-Thunderbird-Bass-Tobacco-Burst-Finish-11.jpg</image:loc>
+			<image:title><![CDATA[Gibson Thunderbird Bass, Tobacco Burst]]></image:title>
+			<image:caption><![CDATA[Gibson Thunderbird Bass, Tobacco Burst]]></image:caption>
+		</image:image>
+	</url>
+</urlset>

@@ -794,6 +794,10 @@ h1.spwps-options-page-title {
 .spwps-field .spwps-title h4 {
   margin: 0;
   color: #23282d;
+  display: inline-block;
+}
+.spwps-field .spwps-title .spwps-help{
+  margin-left: 5px;
 }
 .spwps-field .spwps-fieldset {
   float: right;
@@ -3631,6 +3635,10 @@ content: '';
 }
 .spwps-field.spwps-field-button_set.product-rating-alignment.pro_only_field .spwps--button:last-child .spwps--name:after {
   content: 'PRO';
+}
+.spwps-field.spwps-field-button_set.pro_only_field.pro_only_field_group .spwps-fieldset .spwps--button-group .spwps--button .spwps--name::after,
+.spwps-field.spwps-field-switcher.pro_only_field.pro_only_field_group .spwps-fieldset .spwps--switcher .spwps--ball::after {
+  display: none;
 }
 .spwps-field.spwps-field-image_select.layout_preset img {
   width: 110px;

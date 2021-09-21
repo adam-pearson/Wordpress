@@ -485,6 +485,7 @@ if ( ! class_exists( 'SPWPS' ) ) {
 				if ( ! empty( $field['title'] ) ) {
 					echo '<div class="spwps-title">';
 					echo '<h4>' . wp_kses_post( $field['title'] ) . '</h4>';
+					echo ( ! empty( $field['title_help'] ) ) ? '<div class="spwps-help"><span class="spwps-help-text">' . wp_kses_post( $field['title_help'] ) . '</span><i class="fas fa-question-circle"></i></div>' : '';
 					echo ( ! empty( $field['subtitle'] ) ) ? '<div class="spwps-text-subtitle">' . wp_kses_post( $field['subtitle'] ) . '</div>' : '';
 					echo '</div>';
 				}

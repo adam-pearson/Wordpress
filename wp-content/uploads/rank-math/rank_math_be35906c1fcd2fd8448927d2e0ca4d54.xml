@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//wordpress.adam-pearson.netmatters-scs.co.uk/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/post-sitemap.xml</loc>
+		<lastmod>2021-09-03T10:53:20+01:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/page-sitemap.xml</loc>
+		<lastmod>2021-09-03T11:29:32+01:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/product-sitemap.xml</loc>
+		<lastmod>2021-09-01T14:00:25+01:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://wordpress.adam-pearson.netmatters-scs.co.uk/category-sitemap.xml</loc>
+		<lastmod>2021-09-03T10:53:20+01:00</lastmod>
+	</sitemap>
+</sitemapindex>
